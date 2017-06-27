@@ -1,0 +1,31 @@
+﻿Build started 2017-06-27 09:05:01.
+     1>Project "C:\Users\Lukasz\Desktop\Project62\Project62\draw.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project62.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\draw.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt draw.cpp
+         draw.cpp
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(171): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(203): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(220): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(235): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(476): warning C4101: 'a' : unreferenced local variable
+     1>c:\users\lukasz\desktop\project62\project62\draw.cpp(476): warning C4101: 'b' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Lukasz\Desktop\Project62\Project62\Debug\draw.exe" /INCREMENTAL /NOLOGO gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Lukasz\Desktop\Project62\Project62\Debug\draw.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Lukasz\Desktop\Project62\Project62\Debug\draw.lib" /MACHINE:X86 Debug\draw.res
+         Debug\draw.obj
+         Debug\stdafx.obj
+         draw.vcxproj -> C:\Users\Lukasz\Desktop\Project62\Project62\Debug\draw.exe
+     1>Done Building Project "C:\Users\Lukasz\Desktop\Project62\Project62\draw.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84
